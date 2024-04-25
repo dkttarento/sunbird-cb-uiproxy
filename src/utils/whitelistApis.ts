@@ -3013,6 +3013,7 @@ export const API_LIST = {
                 ROLE.SPV_ADMIN,
             ],
         },
+
         '/proxies/v8/microsite/read/insights': {
             checksNeeded: [CHECK.ROLE],
             // tslint:disable-next-line: object-literal-sort-keys
@@ -3025,6 +3026,13 @@ export const API_LIST = {
             // tslint:disable-next-line: object-literal-sort-keys
             ROLE_CHECK: [
                     ROLE.PUBLIC,
+                ],
+        },
+        '/proxies/v8/workflow/v2/userWFApplicationFieldsSearch': {
+            checksNeeded: [CHECK.ROLE],
+            // tslint:disable-next-line: object-literal-sort-keys
+            ROLE_CHECK: [
+                ROLE.PUBLIC,
             ],
         },
           
@@ -3418,5 +3426,6 @@ export const API_LIST = {
             '/proxies/v8/careers/v4/retire/:do_id',
             '/proxies/v8/microsite/read/insights',
             '/proxies/v8/admin/trending/content/search',
+            '/proxies/v8/workflow/v2/userWFApplicationFieldsSearch',
            ],
 }
