@@ -3021,7 +3021,7 @@ export const API_LIST = {
                     ROLE.PUBLIC,
             ],
         },
-        '/proxies/v8/admin/trending/content/search': {
+        '/proxies/v8/microsite/topFeatured/content/search': {
             checksNeeded: [CHECK.ROLE],
             // tslint:disable-next-line: object-literal-sort-keys
             ROLE_CHECK: [
@@ -3425,7 +3425,7 @@ export const API_LIST = {
             '/proxies/v8/careers/v4/update/:do_id',
             '/proxies/v8/careers/v4/retire/:do_id',
             '/proxies/v8/microsite/read/insights',
-            '/proxies/v8/admin/trending/content/search',
+            '/proxies/v8/microsite/topFeatured/content/search',
             '/proxies/v8/workflow/v2/userWFApplicationFieldsSearch',
            ],
 }
