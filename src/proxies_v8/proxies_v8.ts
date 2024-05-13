@@ -267,7 +267,7 @@ proxiesV8.use('/microsite/read/insights',
 
 proxiesV8.use('/content/aggregation/search',
   // tslint:disable-next-line: max-line-length
-  proxyCreatorSunbirdSearch(express.Router(), `${CONSTANTS.KONG_API_BASE}/content/aggregation/search`)
+  proxyCreatorSunbirdSearch(express.Router(), `${CONSTANTS.KONG_API_BASE}/aggregation/search`)
 )
 
 proxiesV8.get(['/api/user/v2/read', '/api/user/v2/read/:id'], async (req, res) => {
